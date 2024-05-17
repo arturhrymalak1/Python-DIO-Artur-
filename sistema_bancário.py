@@ -1,11 +1,16 @@
 menu = """
 
+============== MENU ==============
+
 [d] Depositar
 [s] Saque
 [e] Extrato
 [q] Sair
 
+==================================
+
 =>"""
+
 saldo = 0
 limite = 500
 numero_saques = 0
