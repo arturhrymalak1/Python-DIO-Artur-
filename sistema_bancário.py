@@ -44,14 +44,14 @@ while True:
             print("Saldo Insuficiente!")
         
         elif excedeu_limite:
-            print("Saque excedeu o limite de R$ 500.00.")
+            print("Saque excedeu o limite de R$ 500,00")
         
         elif excedeu_saques:
             print("Falha! Excedeu o limite de saques diários.")
         
         elif valor > 0:
             saldo -= valor
-            extrato += f"Saoque realizado no valor de R$ {valor:.2f}.\n"  
+            extrato += f"Saque realizado no valor de R$ {valor:.2f}.\n"  
             numero_saques += 1
         else:
             print("Saque Falhou!!")  
